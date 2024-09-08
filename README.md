@@ -79,10 +79,18 @@ This system provides an efficient and flexible way to manage API requests and da
 
 The `useFetch` hook is a powerful tool for managing data fetching and caching in React applications. This guide will walk you through how to use the hook effectively in your components.
 
+## Installation
+
+To install the `useFetch` hook, run the following command:
+
+```bash
+npm install use-fetch-hook
+```
+
 ## Basic Usage
 
 ```typescript
-import { useFetch } from "./path-to-useFetch";
+import { useFetch } from "use-fetch-hook";
 
 function MyComponent() {
   const { data, isLoading, isFetching, error, refetch, invalidateQuery } =
