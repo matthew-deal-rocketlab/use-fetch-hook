@@ -1,0 +1,30 @@
+{
+  "name": "use-fetch-hook",
+  "version": "1.0.0",
+  "description": "A custom React hook for data fetching",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "fetch",
+    "data"
+  ],
+  "author": "Matt Deal",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "react": "18",
+    "react-dom": "18",
+    "typescript": "4"
+  }
+}
