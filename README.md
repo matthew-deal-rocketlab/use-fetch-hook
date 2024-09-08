@@ -7,13 +7,13 @@ The `useFetch` hook is a powerful tool for managing data fetching and caching in
 To install the `useFetch` hook, run the following command:
 
 ```bash
-npm install use-fetch-hook
+npm i @mattdealsy/use-fetch-hook
 ```
 
 ## Basic Usage
 
 ```typescript
-import { useFetch } from "use-fetch-hook";
+import { useFetch } from "@mattdealsy/use-fetch-hook";
 
 function MyComponent() {
   const { data, isLoading, isFetching, error, refetch, invalidateQuery } =
