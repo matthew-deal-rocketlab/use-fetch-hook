@@ -1,5 +1,5 @@
 {
-  "name": "ufh",
+  "name": "@mattdealsy/use-fetch-hook",
   "version": "1.0.0",
   "description": "A custom React hook for data fetching",
   "main": "dist/index.js",
