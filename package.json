@@ -25,6 +25,6 @@
     "@types/react-dom": "18",
     "react": "18",
     "react-dom": "18",
-    "typescript": "4"
+    "typescript": "5.5.4"
   }
 }
