@@ -70,7 +70,3 @@ The `useFetch` hook manages data fetching, caching, and state for queries in Rea
 - Loading and fetching state management
 - Cache invalidation
 - Configurable refetch intervals
-
-This system provides an efficient and flexible way to manage API requests and data caching in React applications, reducing unnecessary network requests and improving performance.
-
-# useFetch Hook Usage Guide
