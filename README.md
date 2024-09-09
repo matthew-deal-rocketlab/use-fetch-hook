@@ -119,6 +119,18 @@ const handleUserUpdate = () => {
 };
 ```
 
+### Refetch
+
+```typescript
+const { refetch } = useFetch({
+  fetchKey: ["userData"],
+  fetchFn: fetchUserData,
+});
+
+// Later in your code
+refetch(); // This will refetch the data
+```
+
 ## Best Practices
 
 1. Use consistent fetchKey arrays for the same data across your app.
