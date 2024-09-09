@@ -2,6 +2,8 @@
 
 The `useFetch` hook is a powerful tool for managing data fetching and caching in React applications. This guide will walk you through how to use the hook effectively in your components.
 
+This hook is a mimic of useQuery from TanStacks React Query.
+
 ## Installation
 
 To install the `useFetch` hook, run the following command:
